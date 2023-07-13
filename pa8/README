@@ -1,0 +1,42 @@
+Lukas Licon, llicon 
+Winter 2023 PA#8
+CSE 101
+03/12/2023
+README
+
+In this assignment I have created a Dictionary ADT in C++ and an executable WordFrequency.cpp file that checks the frequency of a word and adds it to a an RBT
+
+Program USAGE
+#USAGE: ./WordFrequency (input file) (output file)
+
+--WordFrequency.cpp--
+this is the main program for this project
+this program takes 2 arguments, input file for reading and output file for writing.
+this file implements all functions written out for use in Dictionary.cpp.
+WordFrequency.cpp checks the frequency of a word and adds it to a an RBT
+
+--Order.cpp--
+Order.cpp reads in the lines of an input file, each line being a (unique) single string, then insert these strings (as keys) into a Dictionary.
+usage ./Order (input file) (output file)
+
+--Dictionary.cpp--
+Implementation of functions used in Order.cpp for performing operations.
+this file contains all the implementation of the function delcarations defined in Dictionary.h
+
+--Dictionary.h--
+this is a header file that contains all the function declarations for Dictionary.cpp
+the compiler uses the information in the header files to declare what functions and structures are available to the programmer and how to use them.
+
+--DictionaryTest.cpp--
+this file is to be used as a test client. I created my own tests to test all Dictionary functions involved in Dictionary.h
+this file outputs to terminal every other file that outputs, outputs to the output file.
+
+--Makefile--
+the Makefile contains a list of rules that tells the system what commands need/want to be executed.
+the Makefile is created so that a program can compile due to the executables.
+
+--README--
+table of contents that explains what each file contains.
+
+--Special Notes--
+I followed all Pseudo code found in the examples of cse101 website. All added functions between pa7 and pa8 are almost identical to the pseudo code (pseudo code made assignment a bit too easy.)
